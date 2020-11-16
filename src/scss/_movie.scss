@@ -1,0 +1,21 @@
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card .overlay{
+    width: 200%;
+    height: 100%;
+    transform:translateX(-130%);
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #da4f45;
+    opacity: 0.5;
+    transition: all 0.7s;
+}
+
+.card:hover .overlay{
+    transform:translateX(-25%);
+    transition: all 0.7s;
+}
+

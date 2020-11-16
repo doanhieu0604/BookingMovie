@@ -1,0 +1,30 @@
+
+#movieSlider .carousel-caption{
+    text-align: left;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#movieSlider .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 1;
+    background-clip:border-box;
+}
+#movieSlider .carousel-indicators li.active{
+    background-color: white;
+}
+
+#movieSlider .carousel-indicators
+{
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}

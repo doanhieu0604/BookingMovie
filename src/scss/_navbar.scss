@@ -1,0 +1,34 @@
+
+.imgLogo{
+    width: 50%;
+    height: 100%;
+}
+.movieNavbar .navbar-nav{
+    margin-left: 20%;
+    font-size: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+    color: red;
+}
+.movieNavbar .navbar-nav .nav-link:hover{
+    color: #d62707;
+}
+.movieNavbar .navbar-nav .nav-item::after {
+    content:"";
+    width: 0;
+    height: 3px;
+    display: block;
+    background: #d62707;
+    box-shadow: 0 0 0 0 #d62707;
+    transition: all .5s;    
+}
+.movieNavbar .navbar-nav .nav-item:hover::after{
+    box-shadow: 0 0 20px 0 #d62707;
+    width: 100%;
+    color: #d62707;
+}
+
+
